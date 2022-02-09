@@ -40,7 +40,7 @@
 .nav-pill:hover{
     background-color:var(--secondary-clr);
     transform: translateY(-2px);
-    translate: transform 3s;
+    translate: transform 3s ease;
 }
 
 .nav-pill-img{

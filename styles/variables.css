@@ -1,0 +1,17 @@
+:root{
+    /*color theme*/
+    --primary-clr:#5028c7;
+    --secondary-clr:#dde3fd;
+    --teritiary-clr:#ffeae5;
+    --accent-clr:#fa0a32;
+}
+
+
+/*utilities*/
+.mg-1{
+    margin:1rem;
+}
+
+.flex-start{
+    align-items: flex-start;
+}
