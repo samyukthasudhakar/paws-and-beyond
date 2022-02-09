@@ -1,7 +1,7 @@
 .cart-heading{
     border-bottom: solid var(--primary-clr) 2px;
     color:var(--accent-clr);
-    margin:1rem 5rem;
+    margin:1rem 3rem;
     padding:1rem;
 }
 
