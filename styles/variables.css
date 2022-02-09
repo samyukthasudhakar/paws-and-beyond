@@ -7,11 +7,23 @@
 }
 
 
-/*utilities*/
+/*utility class required [will be moving these to component library]*/
 .mg-1{
     margin:1rem;
 }
 
+.mg-rl-1{
+    margin:0 1rem;
+}
+
+.mg-rl-2{
+    margin:0 2rem;
+}
+
 .flex-start{
     align-items: flex-start;
+}
+
+.space-around{
+    justify-content: space-around;
 }
