@@ -1,0 +1,29 @@
+:root{
+    /*color theme*/
+    --primary-clr:#5028c7;
+    --secondary-clr:#dde3fd;
+    --teritiary-clr:#ffeae5;
+    --accent-clr:#fa0a32;
+}
+
+
+/*utility class required [will be moving these to component library]*/
+.mg-1{
+    margin:1rem;
+}
+
+.mg-rl-1{
+    margin:0 1rem;
+}
+
+.mg-rl-2{
+    margin:0 2rem;
+}
+
+.flex-start{
+    align-items: flex-start;
+}
+
+.space-around{
+    justify-content: space-around;
+}
