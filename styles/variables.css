@@ -20,6 +20,10 @@
     margin:0 2rem;
 }
 
+.mg-rl-5px{
+    margin:0 5px;
+}
+
 .flex-start{
     align-items: flex-start;
 }
