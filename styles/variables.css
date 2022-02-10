@@ -31,3 +31,11 @@
 .space-around{
     justify-content: space-around;
 }
+
+.width-100{
+    width:100%;
+}
+
+.fs-13px{
+    font-size: 13px;
+}
