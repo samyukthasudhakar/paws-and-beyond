@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href=https://breezeui.netlify.app/styles/breezeUI.css>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="assets/images/paws-and-beyond.png" type="image/png">
+    <title>paws & beyond | SignUp</title>
+</head>
+<body>
+    <header class="flex-space-btwn header-container">
+        <div class="flex-center">
+            <img class="p-b-logo" src="assets/images/paws-and-beyond-logo.png" 
+                alt="paws and beyond logo">
+            <span class="p-lg">paws<span class="txt-accent">&</span>beyond</span><span class="txt-accent txt-bold p-lg">.</span>
+        </div>
+        <div class="flex-center flex-space-btwn search-bar">
+            <input class="search-input p-sm" 
+                placeholder="Let's find what you are looking for...">
+            <i class="fa fa-search search-icon"></i>
+        </div>
+        <nav class="flex-layout">
+            <a class="nav-pill" href="index.html" ><img class="nav-pill-img" src="assets/images/home.png"></a>
+            <a class="nav-pill" href="wishlist.html" ><img class="nav-pill-img" src="assets/images/heart.png"></a>
+            <a class="nav-pill" href="cart.html"><img class="nav-pill-img" src="assets/images/bag.png"></a>
+            <a class="nav-pill active-nav-pill" href="login.html"><img class="nav-pill-img" src="assets/images/user.png"></a>
+        </nav>
+    </header>
+
+    <div class="flex-space-btwn flex-center space-around login-parent">
+        <div class="flex-column">
+            <img class="auth-landing-img" src="assets/images/auth-background.png" alt="illustration of pets being together">
+            <a href="index.html" class="checkout-btn link-btn browse-btn">Browse Products <i class="fa fa-chevron-circle-right mg-rl-5px"></i></a>
+        </div>
+        <div>
+            <form class="flex-column glass-card login-form">
+                <div class="flex-column flex-center">
+                    <span class="p-md form-heading">SignUp</span>
+                    <input class="form-control mg-tb-1 form-input" type="text" placeholder="Full Name"/>
+                    <input class="form-control input-lg mg-tb-1 form-input" type="text" placeholder="Email" class="form-control mg-tb-1 form-input"/>
+                    <input class="form-control input-lg mg-tb-1 form-input" type="password" placeholder="Password"/>
+                    <input class="form-control input-lg mg-tb-1 form-input" type="password" placeholder="Confirm Password"/>
+                    <div class="flex-layout width-100">
+                        <input type="checkbox"> 
+                        <label class="fs-13px">By signing up I agree to the terms and conditions.</label>
+                    </div>
+                    <button class="checkout-btn">SignUp</button>
+                    <span class="fs-13px">Already have an account ? <a href="login.html" class="link-txt">Login</a></span>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
