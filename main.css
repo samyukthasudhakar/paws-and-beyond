@@ -3,12 +3,27 @@
 @import url(/styles/wishlist.css);
 @import url(/styles/cart.css);
 @import url(/styles/login.css);
+@import url(/styles/productlisting.css);
 
 /*styles for all elements*/
 button:hover{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
-input[ type=checkbox ]{
+.button-img{
+    width:1.4rem;
+}
+
+
+.text-button{
+    border:none;
+    background-color: transparent;
+}
+
+.text-button:hover{
+    box-shadow: none;
+}
+
+input[ type=checkbox ], input[ type=radio]{
     margin:5px 3px 0 0;
 }
