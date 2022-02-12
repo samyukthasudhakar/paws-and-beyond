@@ -27,3 +27,7 @@ button:hover{
 input[ type=checkbox ], input[ type=radio]{
     margin:5px 3px 0 0;
 }
+
+a:hover{
+    color:var(--clr-black);
+}

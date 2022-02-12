@@ -12,6 +12,10 @@
     margin:1rem;
 }
 
+.mg-2{
+    margin:2rem;
+}
+
 .mg-rl-1{
     margin:0 1rem;
 }
@@ -38,6 +42,10 @@
 
 .width-100{
     width:100%;
+}
+
+.fs-1rem{
+    font-size: 1rem;
 }
 
 .fs-13px{
