@@ -1,16 +1,23 @@
-.header-container{
+.header-container, .footer-container{
     background-color:var(--primary-clr);
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     color:var(--clr-white);
-    height:5.5rem;
+    height:5rem;
     padding-bottom:2rem;
+}
+
+.footer-container{
+    height:auto;
+}
+
+.home-bg{
+    background-color: #ffeae5;
+    background-image: linear-gradient(45deg, #ffeae5 0%, #dde3fd 100%);
 }
 
 .p-b-logo{
     margin-right:1rem;
-    width:3.7rem;
-    border-radius: 50%;
-    border:solid black 2px;
+    width:3rem;
 }
 
 .txt-accent{
@@ -30,20 +37,97 @@
     border:0;
     margin:0 3px;
     padding:3px;
-    border-radius: 4px;
 }
 
 .active-nav-pill{
-    background-color:var(--secondary-clr);
+    border-bottom:solid 2px var(--secondary-clr);
 }
 
 .nav-pill:hover{
-    background-color:var(--secondary-clr);
     transform: translateY(-2px);
     translate: transform 3s ease;
+    border-bottom:solid 2px var(--secondary-clr);
 }
 
 .nav-pill-img{
     margin:2px 8px;
     width:1.6rem;
+}
+
+.banner-img{
+    border-radius:1rem;
+    width:50rem;
+}
+
+.why-us-container{
+    width:40rem;
+    padding:1rem;
+}
+
+.glass-bg, .category-container{
+    padding:3px;
+    margin:5px;
+    width:3rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transition: all .5s ease;
+}
+
+.category-container{
+    width:8rem;
+}
+
+.glass-bg:hover, .category-container:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    transform: translate3D(0,-1px,0) scale(1.03);
+}
+
+.glass-container{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.category-img{
+    width:5rem;
+    margin:1rem;
+}
+
+
+.search-bar{
+    padding:5px;
+}
+
+.product-showcase{
+    border-radius:1rem;
+    flex-wrap: wrap;
+    padding:1rem;
+    width:54rem;
+}
+
+.footer-links-container{
+    padding:1rem 10rem;
+    width:70rem
+}
+
+.footer-link{
+    color:var(--clr-white);
+    width:fit-content;
+    padding:1px;
+    border:solid transparent 1px;
+}
+
+.footer-link:hover{
+    color:var(--clr-white);
+    border-bottom: solid var(--clr-white) 1px;
+}
+
+
+.footer-credits{
+    border-top:solid var(--clr-white) 1px;width:100%;
+    padding:1rem;
 }

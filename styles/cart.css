@@ -62,7 +62,7 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 7px 14px;
 }
 
-.coupons-btn, .checkout-btn{
+.cta-btn, .checkout-btn{
     background-color: var(--primary-clr);
     border:none;
     border-radius: 0.5rem;

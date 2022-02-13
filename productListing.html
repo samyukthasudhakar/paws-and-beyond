@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href=https://breezeui.netlify.app/styles/breezeUI.css>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="assets/images/paws-and-beyond.png" type="image/png">
+    <title>paws & beyond | product</title>
+</head>
+<body>
+    <header class="flex-space-btwn header-container">
+        <div class="flex-center">
+            <img class="p-b-logo" src="assets/images/pet-house-white.png" 
+                alt="paws and beyond logo">
+            <span class="p-lg">paws<span class="txt-accent">&</span>beyond</span><span class="txt-accent txt-bold p-lg">.</span>
+        </div>
+        <div class="flex-center flex-space-btwn search-bar">
+            <input class="search-input p-sm" 
+                placeholder="Let's find what you are looking for...">
+            <i class="fa fa-search search-icon"></i>
+        </div>
+        <nav class="flex-layout">
+            <a class="nav-pill" href="index.html" ><img class="nav-pill-img" src="assets/images/home.png" alt="home icon"></a>
+            <a class="nav-pill" href="wishlist.html" ><img class="nav-pill-img" src="assets/images/heart.png" alt="heart icon"></a>
+            <a class="nav-pill" href="cart.html"><img class="nav-pill-img" src="assets/images/bag-white.png" alt="bag icon"></a>
+            <a class="nav-pill" href="login.html"><img class="nav-pill-img" src="assets/images/user.png" alt="user icon"></a>
+        </nav>
+    </header>
+    <div class="flex-layout">
+        <aside class="filter-menu">
+            <div class="flex-space-btwn">
+                <h4>Filters</h4>
+                <button class="text-button txt-bold">Clear</button>
+            </div>
+            <div class="mg-tb-1">
+                <h4>Price</h4>
+                <input type="range" min="100" max="10000" value="50">
+            </div>
+            <div class="mg-tb-1">
+                <h4>Category</h4>
+                <div class="flex-column">
+                    <label><input type="checkbox" name="category">Accessories</label>
+                    <label><input type="checkbox" name="category">Food</label>
+                    <label><input type="checkbox" name="category">Medicine</label>
+                    <label><input type="checkbox" name="category">Toys</label>
+                    <label><input type="checkbox" name="category">Treats</label>
+                </div>
+            </div>
+            <div class="mg-tb-1">
+                <h4>Rating</h4>
+                <div class="flex-column">
+                    <label><input type="radio" name="rating">4 stars & above</label>
+                    <label><input type="radio" name="rating">3 stars & above</label>
+                    <label><input type="radio" name="rating">2 stars & above</label>
+                    <label><input type="radio" name="rating">1 star & above</label>
+                </div>
+            </div>
+            <div class="mg-tb-1">
+                <h4>Sort By</h4>
+                <div class="flex-column">
+                    <label><input type="checkbox">Price - Low to High</label>
+                    <label><input type="checkbox">Price - High to Low</label>
+                </div>
+            </div>
+            <div class="mg-tb-1">
+                <h4>Discount</h4>
+                <div class="flex-column">
+                    <label><input type="radio">50% and above</label>
+                    <label><input type="radio">40% and above</label>
+                    <label><input type="radio">30% and above</label>
+                    <label><input type="radio">20% and above</label>
+                    <label><input type="radio">10% and above</label>
+                </div>
+            </div>
+        </aside>
+        <main class="flex-column flex-start productlist-container">
+            <div class="flex-center">
+                <h3>Showing all Products</h3>
+                <p class="mg-rl-1">(Showing 16 products)</p>
+            </div>
+            <div class="flex-layout flex-wrap">
+                <div class="flex-col-space-btwn mg-1 product-card">
+                    <img class="product-image-1" src="assets/images/dog-food-apple.png" 
+                    alt="prodcut image">
+                    <button class="card-like"><i class="fa fa-heart-o"></i></button>
+                    <span class="product-title">Riley's Organic Munchies</span>
+                    <div class="product-pricing">
+                        <div class="flex-space-btwn flex-center">
+                            <div>
+                                <span class="card-product-price">₹1000</span>
+                                <span class="card-product-actual-price">₹2000</span>
+                            </div>
+                            <button class="text-button" title="Add to Bag">
+                                <img class="button-img" src="assets/images/bag.png" alt="bag icon">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-col-space-btwn mg-1 product-card">
+                    <img class="product-image-2" src="assets/images/squeaky-bone.png"
+                    alt="product image">
+                    <button class="card-like"><i class="fa fa-heart-o"></i></button>
+                    <span class="product-title">Foggy Squeaky Toy</span>
+                    <div class="product-pricing">
+                        <div class="flex-space-btwn flex-center">
+                            <div>
+                                <span class="card-product-price">₹1000</span>
+                                <span class="card-product-actual-price">₹2000</span>
+                            </div>
+                            <button class="text-button" title="Add to Bag">
+                                <img class="button-img" src="assets/images/bag.png" alt="bag icon">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-col-space-btwn mg-1 product-card">
+                    <img class="product-image-1" src="assets/images/dog-food-pumpkin.png"
+                    alt="product image">
+                    <button class="card-like"><i class="fa fa-heart-o"></i></button>
+                    <span class="product-title">Riley's Organic Munchies</span>
+                    <div class="product-pricing">
+                        <div class="flex-space-btwn flex-center">
+                            <div>
+                                <span class="card-product-price">₹1000</span>
+                                <span class="card-product-actual-price">₹2000</span>
+                            </div>
+                            <button class="text-button" title="Add to Bag">
+                                <img class="button-img" src="assets/images/bag.png" alt="bag icon">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-col-space-btwn mg-1 product-card">
+                    <img class="product-image-2" src="assets/images/dog-collar.png"
+                    alt="product image">                    
+                    <button class="card-like"><i class="fa fa-heart-o"></i></button>
+                    <span class="product-title">Riley's Dog Collar</span>
+                    <div class="product-pricing">
+                        <div class="flex-space-btwn flex-center">
+                            <div>
+                                <span class="card-product-price">₹1000</span>
+                                <span class="card-product-actual-price">₹2000</span>
+                            </div>
+                            <button class="text-button" title="Add to Bag">
+                                <img class="button-img" src="assets/images/bag.png" alt="bag icon">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-col-space-btwn mg-1 product-card">
+                    <img class="product-image-1" src="assets/images/treat-dispenser.png"
+                    alt="product image">
+                    <button class="card-like"><i class="fa fa-heart-o"></i></button>
+                    <span class="product-title">Riley's Treat Dispenser</span>
+                    <div class="product-pricing">
+                        <div class="flex-space-btwn flex-center">
+                            <div>
+                                <span class="card-product-price">₹1000</span>
+                                <span class="card-product-actual-price">₹2000</span>
+                            </div>
+                            <button class="text-button" title="Add to Bag">
+                                <img class="button-img" src="assets/images/bag.png" alt="bag icon">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-col-space-btwn mg-1 product-card">
+                    <img class="product-image-2" src="assets/images/dog-food-pumpkin.png"
+                    alt="product image">
+                    <button class="card-like"><i class="fa fa-heart-o"></i></button>
+                    <span class="product-title">Riley's Organic Munchies</span>
+                    <div class="product-pricing">
+                        <div class="flex-space-btwn flex-center">
+                            <div>
+                                <span class="card-product-price">₹1000</span>
+                                <span class="card-product-actual-price">₹2000</span>
+                            </div>
+                            <button class="text-button" title="Add to Bag">
+                                <img class="button-img" src="assets/images/bag.png" alt="bag icon">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-col-space-btwn mg-1 product-card">
+                    <img class="product-image-1" src="assets/images/dog-bandana.png"
+                    alt="product image">
+                    <button class="card-like"><i class="fa fa-heart-o"></i></button>
+                    <span class="product-title">Riley's Orange Bandana</span>
+                    <div class="product-pricing">
+                        <div class="flex-space-btwn flex-center">
+                            <div>
+                                <span class="card-product-price">₹1000</span>
+                                <span class="card-product-actual-price">₹2000</span>
+                            </div>
+                            <button class="text-button" title="Add to Bag">
+                                <img class="button-img" src="assets/images/bag.png" alt="bag icon">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-col-space-btwn mg-1 product-card">
+                    <img class="product-image-2" src="assets/images/dog-food-apple.png"
+                    alt="product image">
+                    <button class="card-like"><i class="fa fa-heart-o"></i></button>
+                    <span class="product-title">Riley's Organic Munchies</span>
+                    <div class="product-pricing">
+                        <div class="flex-space-btwn flex-center">
+                            <div>
+                                <span class="card-product-price">₹1000</span>
+                                <span class="card-product-actual-price">₹2000</span>
+                            </div>
+                            <button class="text-button" title="Add to Bag">
+                                <img class="button-img" src="assets/images/bag.png" alt="bag icon">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-col-space-btwn mg-1 product-card">
+                    <img class="product-image-1" src="assets/images/dog-food-apple.png" 
+                    alt="prodcut image">
+                    <button class="card-like"><i class="fa fa-heart-o"></i></button>
+                    <span class="product-title">Riley's Organic Munchies</span>
+                    <div class="product-pricing">
+                        <div class="flex-space-btwn flex-center">
+                            <div>
+                                <span class="card-product-price">₹1000</span>
+                                <span class="card-product-actual-price">₹2000</span>
+                            </div>
+                            <button class="text-button" title="Add to Bag">
+                                <img class="button-img" src="assets/images/bag.png" alt="bag icon">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-col-space-btwn mg-1 product-card">
+                    <img class="product-image-2" src="assets/images/squeaky-bone.png"
+                    alt="product image">
+                    <button class="card-like"><i class="fa fa-heart-o"></i></button>
+                    <span class="product-title">Foggy Squeaky Toy</span>
+                    <div class="product-pricing">
+                        <div class="flex-space-btwn flex-center">
+                            <div>
+                                <span class="card-product-price">₹1000</span>
+                                <span class="card-product-actual-price">₹2000</span>
+                            </div>
+                            <button class="text-button" title="Add to Bag">
+                                <img class="button-img" src="assets/images/bag.png" alt="bag icon">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-col-space-btwn mg-1 product-card">
+                    <img class="product-image-1" src="assets/images/dog-food-pumpkin.png"
+                    alt="product image">
+                    <button class="card-like"><i class="fa fa-heart-o"></i></button>
+                    <span class="product-title">Riley's Organic Munchies</span>
+                    <div class="product-pricing">
+                        <div class="flex-space-btwn flex-center">
+                            <div>
+                                <span class="card-product-price">₹1000</span>
+                                <span class="card-product-actual-price">₹2000</span>
+                            </div>
+                            <button class="text-button" title="Add to Bag">
+                                <img class="button-img" src="assets/images/bag.png" alt="bag icon">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-col-space-btwn mg-1 product-card">
+                    <img class="product-image-2" src="assets/images/dog-collar.png"
+                    alt="product image">                    
+                    <button class="card-like"><i class="fa fa-heart-o"></i></button>
+                    <span class="product-title">Riley's Dog Collar</span>
+                    <div class="product-pricing">
+                        <div class="flex-space-btwn flex-center">
+                            <div>
+                                <span class="card-product-price">₹1000</span>
+                                <span class="card-product-actual-price">₹2000</span>
+                            </div>
+                            <button class="text-button" title="Add to Bag">
+                                <img class="button-img" src="assets/images/bag.png" alt="bag icon">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-col-space-btwn mg-1 product-card">
+                    <img class="product-image-1" src="assets/images/treat-dispenser.png"
+                    alt="product image">
+                    <button class="card-like"><i class="fa fa-heart-o"></i></button>
+                    <span class="product-title">Riley's Treat Dispenser</span>
+                    <div class="product-pricing">
+                        <div class="flex-space-btwn flex-center">
+                            <div>
+                                <span class="card-product-price">₹1000</span>
+                                <span class="card-product-actual-price">₹2000</span>
+                            </div>
+                            <button class="text-button" title="Add to Bag">
+                                <img class="button-img" src="assets/images/bag.png" alt="bag icon">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-col-space-btwn mg-1 product-card">
+                    <img class="product-image-2" src="assets/images/dog-food-pumpkin.png"
+                    alt="product image">
+                    <button class="card-like"><i class="fa fa-heart-o"></i></button>
+                    <span class="product-title">Riley's Organic Munchies</span>
+                    <div class="product-pricing">
+                        <div class="flex-space-btwn flex-center">
+                            <div>
+                                <span class="card-product-price">₹1000</span>
+                                <span class="card-product-actual-price">₹2000</span>
+                            </div>
+                            <button class="text-button" title="Add to Bag">
+                                <img class="button-img" src="assets/images/bag.png" alt="bag icon">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-col-space-btwn mg-1 product-card">
+                    <img class="product-image-1" src="assets/images/dog-bandana.png"
+                    alt="product image">
+                    <button class="card-like"><i class="fa fa-heart-o"></i></button>
+                    <span class="product-title">Riley's Orange Bandana</span>
+                    <div class="product-pricing">
+                        <div class="flex-space-btwn flex-center">
+                            <div>
+                                <span class="card-product-price">₹1000</span>
+                                <span class="card-product-actual-price">₹2000</span>
+                            </div>
+                            <button class="text-button" title="Add to Bag">
+                                <img class="button-img" src="assets/images/bag.png" alt="bag icon">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-col-space-btwn mg-1 product-card">
+                    <img class="product-image-2" src="assets/images/dog-food-apple.png"
+                    alt="product image">
+                    <button class="card-like"><i class="fa fa-heart-o"></i></button>
+                    <span class="product-title">Riley's Organic Munchies</span>
+                    <div class="product-pricing">
+                        <div class="flex-space-btwn flex-center">
+                            <div>
+                                <span class="card-product-price">₹1000</span>
+                                <span class="card-product-actual-price">₹2000</span>
+                            </div>
+                            <button class="text-button" title="Add to Bag">
+                                <img class="button-img" src="assets/images/bag.png" alt="bag icon">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                    
+            </div>
+            
+        </main>
+    </div>
+</body>
+</html>
+
+

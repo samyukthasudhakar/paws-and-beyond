@@ -22,12 +22,19 @@
     align-self: center;
 }
 
-.card-dismiss, .card-cart{
+.card-dismiss, .card-cart, .card-like{
     background: transparent;
     border:none;
     color:var(--accent-clr);
     width:2rem;
     height:2rem;
+}
+
+.card-like{
+    font-size:1.25rem;
+    position:absolute;
+    right:4px;
+    top:4px;
 }
 
 .card-cart{
@@ -40,7 +47,7 @@
     height:3rem;
 }
 
-.card-dismiss:hover, .card-cart:hover{
+.card-dismiss:hover, .card-cart:hover, .card-like:hover{
     border:none;
     border-radius:50%;
     background-color: var(--secondary-clr);
