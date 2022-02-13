@@ -34,6 +34,10 @@
     background-color:var(--teritiary-clr);
 }
 
+.product-title{
+    margin-left:0.87rem;
+}
+
 .product-pricing{
     margin:0 1rem 1rem 1rem;
 }
