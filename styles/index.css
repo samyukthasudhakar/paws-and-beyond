@@ -116,6 +116,14 @@
 
 .footer-link{
     color:var(--clr-white);
+    width:fit-content;
+    padding:1px;
+    border:solid transparent 1px;
+}
+
+.footer-link:hover{
+    color:var(--clr-white);
+    border-bottom: solid var(--clr-white) 1px;
 }
 
 
